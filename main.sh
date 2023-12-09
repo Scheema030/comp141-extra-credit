@@ -1,5 +1,6 @@
 mkdir output
 
+
 mv spongebob.txt output/
 
 cd output
@@ -16,7 +17,9 @@ alias printdate="date"
 
 printdate > date.txt
 
-wc -w spongebob.txt | cut -d' ' -f1 > textcount.txt
+word_count=$(wc -w <spongebob.txt)
+echo "$word_count" > textcount.txt
+
 
 ps | head -n 5 > process.txt
 

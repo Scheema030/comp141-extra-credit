@@ -1,4 +1,4 @@
   PID TTY           TIME CMD
-86303 ttys000    0:00.36 -zsh
-86696 ttys000    0:00.01 sh ./main.sh
-86706 ttys000    0:00.00 head -n 5
+86303 ttys000    0:00.49 -zsh
+86802 ttys000    0:00.01 sh ./main.sh
+86812 ttys000    0:00.00 head -n 5
